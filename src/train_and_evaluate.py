@@ -50,7 +50,7 @@ def train_and_evaluate(config_path):
 
     (rmse, mae, r2) = eval_metrics(test_y, predicted_qualities)
 
-    print(f"Elasticnet model (alpha:{alpha} l1_ratio{l1_ratio})")
+    print(f"Elasticnet model (alpha: {alpha}  l1_ratio: {l1_ratio})")
     print(f"  RMSE: {rmse}")
     print(f"  MAE: {mae}")
     print(f"  R2: {r2}")
